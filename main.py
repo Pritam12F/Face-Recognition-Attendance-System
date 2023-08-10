@@ -4,8 +4,8 @@ name=0
 video_capture=cv2.VideoCapture(0)
 
 #Load known faces
-peter_photo=face_recognition.load_image_file("faces/peter.jpg")
-ben_photo=face_recognition.load_image_file("faces/ben.jpg")
+peter_photo=face_recognition.load_image_file("peter.jpg")
+ben_photo=face_recognition.load_image_file("ben.jpg")
 peter_encoding=face_recognition.face_encodings(peter_photo)[0]
 ben_encoding=face_recognition.face_encodings(ben_photo)[0]
 
